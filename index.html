@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Cikal Bhagaskoro</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#d2b48c,#c19a6b);
+  padding:20px;
+  display:flex;
+  justify-content:center;
+}
+.wrapper{
+  width:100%;
+  max-width:1200px;
+  background:rgba(255,255,255,0.35);
+  border-radius:20px;
+  padding:20px;
+  backdrop-filter:blur(10px);
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+.grid{
+  display:grid;
+  grid-template-columns:1fr 350px;
+  gap:20px;
+}
+
+/* LEFT SIDE */
+.left .image-box{
+  width:100%;
+  max-height:500px;
+  border-radius:16px;
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#ffffff55;
+}
+
+.left .image-box img{
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:500px;
+  object-fit:contain;
+}
+
+.left .text-box{
+  margin-top:20px;
+  background:rgba(255,255,255,0.6);
+  border-radius:16px;
+  text-align: justify;
+  padding:15px;
+  min-height:150px;
+}
+
+.buttons{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin-top:10px;
+}
+.buttons button{
+  padding:6px 12px;
+  border:none;
+  border-radius:10px;
+  background:#8b5a2b;
+  color:white;
+  cursor:pointer;
+  font-weight:500;
+}
+.buttons button:hover{
+  background:#a97442;
+}
+
+/* RIGHT SIDE */
+.right-section{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+.seg{
+  background:rgba(255,255,255,0.55);
+  padding:15px;
+  border-radius:16px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+.seg h3{
+  margin:0 0 8px 0;
+  text-align:center;
+}
+.seg-content{
+  min-height:80px;
+  text-align: left;
+}
+
+/* BOTTOM */
+.bottom{
+  margin-top:40px;
+  text-align:center;
+}
+.bottom iframe{
+  width:100%;
+  max-width:600px;
+  height:152px;
+  margin-bottom:10px;
+  border-radius:12px;
+}
+@media (max-width: 768px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  body{
+    padding:10px;
+  }
+
+  .wrapper{
+    padding:15px;
+  }
+
+  .left .image-box{
+    max-height:300px;
+  }
+
+  .left .image-box img{
+    max-height:300px;
+  }
+
+  .seg-content{
+    font-size:14px;
+    text-align:left; /* kalau mau rata kiri */
+  }
+}
+
+@media (max-width: 480px){
+  .left .image-box{
+    max-height:250px;
+  }
+
+  .left .image-box img{
+    max-height:250px;
+  }
+
+  .seg-content{
+    font-size:13px;
+    text-align:left;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+  <h1 style="
+  text-align:center;
+  font-size:32px;
+  font-weight:700;
+  margin-bottom:20px;
+  letter-spacing:1px;
+  color:#5a381f;
+">
+  FROM BIBUB TO CIBUB
+</h1>
+  <div class="grid">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+      <div class="image-box">
+        <img id="mainImg" src="FOTO1.jpg" alt="Gambar utama">
+      </div>
+
+      <div class="buttons">
+        <button onclick="prevImg()">⟵</button>
+        <button onclick="nextImg()">⟶</button>
+      </div>
+
+      <div class="text-box">
+        <p 
+        id="leftText">Hai Cikal Bhagaskoro! <br>
+          Aku apply praktikkumku selama ini buat web about you anjay. Aku mau ngasih ini dah cukup lama tapi baru mau aku kasih sekarang. Maaf ya! Sebelum baca ini nyalain dulu playlist spotify di bagian paling bawah hehe. Makasih ya cikal meskipun kita cuman setaun but gue happy banget. FOTO KITA BANYAK BANGET TAPI CMN BS UPLOAD SEGINI AJA YA HEHE. Beberapa favoritku karena aku pertama kalinya dateng ke wisudamu dan hal yang paling ku syukuri aku masuk di ugm adalah aku punya memori sama kamu sebagai maba di depan GSP. Foto lainnya adalah saat kamu support aku selese UTBK....JUJUR CIK AKU GAFOKUS UTBK KARENA AKU LEBIH EXCITED DAN MENANTIKAN BANNER APA YG KAMU BAWA WKWKKW. But disitu gue bener-bener merasa spesial. Makasih ya! <br> <br>
+          Selain itu, aku sangat suka kita ngedate tu di dr.yap cik karena gatau kenapa kayak aku jadi gabosen aja buat nunggu lama dan kamu mostly gapernah skip nemenin aku dan bawain aku sesuatu sampe nemenin aku sampe magrib. Bahkan kamu selese tutor aja masih nemenin aku. Even ayahku cuman nemenin aku sekali. Terimakasih cikal dah selalu menemani aku. Foto lainnya adalah pas aku dateng ke event osjur kamu kayak AKU SANGAT SUKA SUPPORT KAMU KALO LAGI TAMPILLL!!! tetep jadi gitaris hebat ya cikal semoga bisa manggung kemana-mana! Foto lainnya adalah pas kamu ultah hehehe maaf ya cikal aku harus prank lama banget dan bikin kamu stress but enjoy your last teen cikal! idk aku bisa ucapin kamu di umur 20 tahun atau engga tapi aku ucapin sekarang aja ya....SELAMAT 20 TAHUN CIKAL BHAGASKORO SEMOGA APA YANG KAMU USAHAKAN BERBUAH MANIS....dan as always aku selalu ngomong bahwa makasih tante sudah melahirkan anak seperti cikal.<br><br>
+          Terakhir, pas kita ke solo!!! MAU LAGI TRAVELLING!!! MAKAN UMA YUMCHA!! Eummm...kamu inget kan cik kalo ak gamau bikin muak dan ganggu kamu dan proggres aku dah hampir selese? Yup, sepertinya ini kayak final projectku ke kamu.......after this i must life must go on.....bahagia selalu ya cikal. Makasih dah selalu dimanapun kapanpun selalu ada buat gue. Dan maaf aku gabisa membalas hal itu seperti yang kamu lakukan sama aku. Aku minta maaf banget cikal. You know what cik, aku baru realize di setiap masaku kayak sd,smp,kuliah aku into you..kayak suka terus engga terus balik lagi jadi suka. <br><br>
+          Aku gatau kenapa setiap masaku ada kamu dan tanpa sadar my role model partner adalah kamu...hal yang paling gakusangka malah dapet wkwkw.....ini energi terakhirku buat kamu cikal semoga ga menganggu kamu. Terimakasih cikal atas setaunnya dan 7 tahun kita berteman i appreciate it. Dan maaf kalo aku bikin berantakan semuanya.</p>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right-section">
+
+      <div class="seg">
+        <h3>MINTA MAAF</h3>
+        <div class="seg-content" id="seg1Text">Aku tau ini bukan pembenaran but i'm really sorry tentang semua perlakuanku ataupun ucapanku selama ini cikal. Aku sebenarnya sadar aku salah tapi egoku lebih nguasain aku dibanding sayang aku ke kamu cik</div>
+        <div class="buttons">
+          <button onclick="prevSeg(1)">⟵</button>
+          <button onclick="nextSeg(1)">⟶</button>
+        </div>
+      </div>
+
+      <div class="seg">
+        <h3>BUAT CIKAL</h3>
+        <div class="seg-content" id="seg2Text">Beberapa yang mungkin aku belum nyampeiin ke kamu adalah CIKAL KM BELUM POST ULANG DI SEKEN ITU YA!!! ih cikal mah..aku gasuka di php in dan MANA HADIAH PERPISAHAN KATANYA MAU KASI...JK</div>
+        <div class="buttons">
+          <button onclick="prevSeg(2)">⟵</button>
+          <button onclick="nextSeg(2)">⟶</button>
+        </div>
+      </div>
+
+      <div class="seg">
+        <h3>MAU KABARIN</h3>
+        <div class="seg-content" id="seg3Text">KEMARIN 15 NOVEMBER INI PAS KAMU TEKNIK FAIR AKU ACARA LAPANGAN DARI JAM 6 PAGI SAMPE 3 SORE CAPEEE DAN PANAS BANGET IHHHHHHHHH TERUS AKU PUNYA TEMEN NAMANYA RATU DAN DIA BAWA PACARNYA ANAK FEB BUAT NGANTERIN DAN NEMENIN DIA SELAMA ACARA LAPANGAN DAN BENER-BENER DITEMENIN ANJIRRR SAMPE JADI PEMBAHASAN KARENA KAYAK NGAPAIN?! TP GPP SIH karena kasian juga dia gapunya temen pdhl di BAIK BANGET TAPI KAYAK KENAPA PACARNYA HARUS SAMPE IKUT SE LAPANGAN-NYA KAYAK KAN BISA NUNGGU DI PINGGIR?!</div>
+        <div class="buttons">
+          <button onclick="prevSeg(3)">⟵</button>
+          <button onclick="nextSeg(3)">⟶</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bottom">
+    <iframe style="border-radius:12px"
+            src="https://open.spotify.com/playlist/0RqU13JZbr20BQ6fwKxtXf?si=5WbpRXpSQC66idZF21bU5w&pi=9Wj097rnQneMU"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+    </iframe>
+    <p>MY FAV SONG WITH MY FAV PERSON!Terimakasih cikal dah ada di hidupku! Aku matiin ya streaknya life must go on cik aku gabisa move on 100% kalo ada kaitannya sama kamu....I love you cikal bhagaskoro dan AKU KANGEN BANGETTTTTT SEMOGA APA YANG KAMU USAHAKAN TERWUJUD YAA!! HAPPY SELALU CIKAL!!! SEMOGA KAMU SELALU MENJADI CIKAL YANG AKU KENAL! YIPPIE</p>
+  </div>
+</div>
+
+<script>
+/* IMAGE SLIDES */
+let imgIndex = 0;
+const imgList = [
+  "FOTO1.jpg",
+  "FOTO2.jpg",
+  "FOTO3.jpg",
+  "FOTO4.jpg",
+  "FOTO5.jpg",
+  "FOTO6.jpg",
+  "FOTO7.jpg",
+  "FOTO8.jpg",
+  "FOTO9.jpg"
+];
+
+function prevImg(){
+  imgIndex = (imgIndex - 1 + imgList.length) % imgList.length;
+  updateImg();
+}
+
+function nextImg(){
+  imgIndex = (imgIndex + 1) % imgList.length;
+  updateImg();
+}
+
+function updateImg(){
+  document.getElementById("mainImg").src = imgList[imgIndex];
+}
+
+/* TEXT SLIDES (RIGHT SECTION) */
+const segData = {
+  1: ["Aku tau ini bukan pembenaran but i'm really sorry tentang semua perlakuanku ataupun ucapanku selama ini cikal. Aku sebenarnya sadar aku salah tapi egoku lebih nguasain aku dibanding sayang aku ke kamu cik","Hal yang mungkin aku sadari juga adalah aku pernah bilang bahwa aku gapercaya hubungan lama jadinya mungkin itu memengaruhi aku untuk selalu pengen selesai sama kamu karena aku gapercaya sama hubungan lama dan tanpa sadar aku lakukan","Aku tumbuh dengan keluarga yang ga harmonis cik sejak ibuku gaada dan punya ibu yang tidak begitu baik sama aku...setiap tidur diteriakin sama ayah, ayahku yang selalu nyuruh aku diam saat aku sedih ataupun menangis bahkan saat aku ketawa. Jadi aku gapunya ruang untuk mengekspresikan perasaanku.","Terus aku ketemu kamu yang dimana aku bisa buka semuanya tapi maaf hal itu bikin aku lampiasin ke kamu dan bikin kamu ga nyaman. Maaf cikal aku gabisa milih aku lahir di keluarga yang harmonis dan aku gapernah ngeluarin hal ini ke siapapun jadinya malah tanpa sadar jadi terkurung","Aku mau berubah menjadi lebih baik kok cik but ya butuh proses...i'm not happy di dunia ini cik, aku nangis setiap hari. Tapi kamu bawa kebahagiaan itu buat gue, Makasih ya!","Aku gatau cik cara nyampeiin kasih sayang yang bener tu kayak gimana karena aku gapernah dapet hal itu dari orang sekelilingku even ayahku jadi mungkin dan pasti sih caraku salah buat nunjukin aku sesayang itu sama kamu karena aku meyampaikannya lewat kemarahan. Maaf ya cikal aku bener-bener bersalah selama ini. Aku tau aku dah sering omongin ini tapi ini untuk terakhir kalinya aku minta maaf. Aku sangat minta maaf, Maaf aku juga terlalu menyudutkan kamu dan buat kamu jadi gapunya ruang untuk sendiri dan berkembang. AKU JANJI GA GITU LAGIII HEHEHEHE MAAFFFFFF KANGEN SETIAP HARI SOALNYA MESKIPUN AJAK RIBUT IH BITA MAH MARAH-MARAH MULU SEBEL MAAF BANGET PERLAKUANKU KAYAK SETAN ANJ JANJII GA GT LAGI KHILAF DAN MUAK"],
+  2: ["Beberapa yang mungkin aku belum nyampeiin ke kamu adalah CIKAL KM BELUM POST ULANG DI SEKEN ITU YA!!! ih cikal mah..aku gasuka di php in dan MANA HADIAH PERPISAHAN KATANYA MAU KASI...JK","part lain yang aku kurang suka adalah KAMU PENDEM SENDIRI TERUS AH CIK KAYAK MAIN PETAK UMPET","Kenapa kamu buat zahrah playlist spoti EVEN AK GA DIBUAT HHHHHHHHHHHHHHH SDIH BETUL TP YAUDAHLAH GPP"],
+  3: ["KEMARIN 15 NOVEMBER INI PAS KAMU TEKNIK FAIR AKU ACARA LAPANGAN DARI JAM 6 PAGI SAMPE 3 SORE CAPEEE DAN PANAS BANGET IHHHHHHHHH TERUS AKU PUNYA TEMEN NAMANYA RATU DAN DIA BAWA PACARNYA ANAK FEB BUAT NGANTERIN DAN NEMENIN DIA SELAMA ACARA LAPANGAN DAN BENER-BENER DITEMENIN ANJIRRR SAMPE JADI PEMBAHASAN KARENA KAYAK NGAPAIN?! TP GPP SIH karena kasian juga dia gapunya temen pdhl di BAIK BANGET TAPI KAYAK KENAPA PACARNYA HARUS SAMPE IKUT SE LAPANGAN-NYA KAYAK KAN BISA NUNGGU DI PINGGIR?!","HAMZAH KALO GASUKA TU KELIATAN BANGET YA AK SERING SEBEL DEH SM DIA KARENA SERING BETMUT NYEBELIN DAN OIYA AKU KETEMU RYAN TP DIA SM AJA ANJIR SAMA SAMA NYEBELIN KAYAK GAKENAL GW HHHHHH","AKU SUKA SEMESTER 3 CIKAL PADAHAL ADA 6 LAPRAK DAN AKU TIAP HARI GA TDR TAPI PRAKTIKKUMNYA LEBIH KE LAPTOP DAN DIEM JADINYA AKU SENANG HIHI KAMU BENER YA AKU SKRNG DH DPT TMN DAN KEMARIN AKU HABIS DI SUPRESIN TAUUUU SKRNG MANA HADIAH AKU!!!"]
+};
+
+const segIndex = {1:0,2:0,3:0};
+
+function prevSeg(seg){
+  segIndex[seg] = (segIndex[seg] - 1 + segData[seg].length) % segData[seg].length;
+  updateSeg(seg);
+}
+
+function nextSeg(seg){
+  segIndex[seg] = (segIndex[seg] + 1) % segData[seg].length;
+  updateSeg(seg);
+}
+
+function updateSeg(seg){
+  document.getElementById(`seg${seg}Text`).innerText = segData[seg][segIndex[seg]];
+}
+</script>
+
+</body>
+</html>
